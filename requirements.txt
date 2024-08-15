@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+nltk
+scikit-learn
+transformers[pytorch]
+accelerate>=0.21.0
+datasets
+torch
