@@ -17,6 +17,13 @@ stopwords = set(stopwords.words('english'))
 
 # -------------------------
 
+# --- INPUT ---
+
+input_list = [""" WRITE HERE YOUR FIRST ESSAY """,
+              """ WRITE HERE YOUR SECOND ESSAY """]
+
+# -------------
+
 # --- USEFUL FUNCTIONS ----
 
 
@@ -104,8 +111,6 @@ model = AutoModelForSequenceClassification.from_pretrained(checkpoint)
 
 # --- DATA PREPROCESSING ---
 
-input_list = [""" WRITE HERE YOUR FIRST ESSAY """,
-              """ WRITE HERE YOUR SECOND ESSAY """]
 n_input = len(input_list)
 
 # Now we convert the input to a dataset
